@@ -1,6 +1,10 @@
-package com.rakesh.modules.decorators;
+package com.codspire.modules.decorators;
 
 import org.junit.Test;
+
+import com.codspire.modules.decorators.CapitalizeMessageDecorator;
+import com.codspire.modules.decorators.MessageDecorator;
+
 import static com.google.common.truth.Truth.assertThat;
 
 public class CapitalizeMessageDecoratorShould {

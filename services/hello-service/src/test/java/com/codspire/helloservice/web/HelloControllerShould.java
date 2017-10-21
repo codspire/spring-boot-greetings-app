@@ -1,4 +1,4 @@
-package com.rakesh.helloservice.web;
+package com.codspire.helloservice.web;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -18,7 +18,8 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import com.rakesh.helloservice.app.HelloServiceApplication;
+import com.codspire.helloservice.app.HelloServiceApplication;
+import com.codspire.helloservice.web.HelloController;
 
 @SpringBootTest(classes = HelloServiceApplication.class)
 @RunWith(SpringRunner.class)

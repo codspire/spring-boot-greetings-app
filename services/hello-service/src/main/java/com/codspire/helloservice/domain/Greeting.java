@@ -1,4 +1,4 @@
-package com.rakesh.helloservice.domain;
+package com.codspire.helloservice.domain;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package com.rakesh.helloservice.web;
+package com.codspire.helloservice.web;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.rakesh.helloservice.HelloService;
-import com.rakesh.helloservice.domain.Greeting;
+import com.codspire.helloservice.HelloService;
+import com.codspire.helloservice.domain.Greeting;
 
 @RestController
 @RequestMapping(value = "/greeting/v1/hello")

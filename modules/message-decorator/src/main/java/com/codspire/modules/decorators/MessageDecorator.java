@@ -1,4 +1,4 @@
-package com.rakesh.modules.decorators;
+package com.codspire.modules.decorators;
 
 public interface MessageDecorator {
 	String decorate(String input);

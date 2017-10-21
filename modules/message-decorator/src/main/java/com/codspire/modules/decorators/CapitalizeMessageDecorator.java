@@ -1,4 +1,4 @@
-package com.rakesh.modules.decorators;
+package com.codspire.modules.decorators;
 
 import org.springframework.util.StringUtils;
 

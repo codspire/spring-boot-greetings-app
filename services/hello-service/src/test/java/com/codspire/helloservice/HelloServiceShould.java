@@ -1,4 +1,4 @@
-package com.rakesh.helloservice;
+package com.codspire.helloservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -6,7 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.rakesh.helloservice.domain.Greeting;
+import com.codspire.helloservice.HelloConfig;
+import com.codspire.helloservice.HelloService;
+import com.codspire.helloservice.domain.Greeting;
 
 import static com.google.common.truth.Truth.assertThat;
 

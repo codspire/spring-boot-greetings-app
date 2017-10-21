@@ -1,4 +1,4 @@
-package com.rakesh.helloservice.app;
+package com.codspire.helloservice.app;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
